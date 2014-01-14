@@ -32,7 +32,7 @@ Simplicity modification
 -----------------------
 I always wanted to make the game simpler to play while not inducing a real cheat like advantage. This modification is a turn on/off feature that you activate within the options tab when starting a new game. The mod allows you to turn on or off the cheat feature by selecting if you want a +0, +5, +10, +15, +20, +30 or +50 bonus to your selected stats everytime you complete a game.
 
-![Example of simplicity module activated image cannot be shown right now!](https://github.com/crazycodr/gdt-crazycodr-mod/blob/master/simplicity/example.png)
+![Example of simplicity module activated image cannot be shown right now!](https://github.com/crazycodr/gdt-crazycodr-mod/blob/master/simplicity/example.png?raw=true)
 
 You cannot change this feature once activated and note that having a too high value will not make game development easier and instead will probably ruin it. I use +20, +30 and +50 only to test something really quickly in the game and so should you. Playing with a +5 or +10 gives a very small advantage over time and will not ruin the game experience and so far, i've found that +15 gives quite a good boost but keeps the game stable.
 
