@@ -8,7 +8,7 @@ This is my first mod at GameDevTycoon. It is composed of two features :
 Installation
 ------------
 1. Follow the instructions on: http://forum.greenheartgames.com/t/official-modding-f-a-q/9144/19 to enable mod support in your Game Dev Tycoon installation
-2. Download the ZIP for this mod using the link on this game at the lower right in the side menu bar
+2. Download the ZIP for this mod using the link on this page at the lower right side in the side menu bar
 3. Deflate the ZIP into the appropriate folder
 4. Enable the mod in the mod menu of the game
 5. RESTART the game
