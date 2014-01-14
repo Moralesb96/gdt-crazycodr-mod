@@ -1,0 +1,12 @@
+{
+	"id" : "crazyMod",
+	"name" : "CrazyCodr's GDT Mod",
+	"version" : "0.1.0",
+	"author" : "Mathieu Dumoulin aka CrazyCodr <crazyone@crazycoders.net>",
+	"description" : "A simple mod that adds loads of new features to the game",
+	"url" : "http://www.crazycoders.net",
+	"main" : "./base.js",
+	"dependencies" : {
+		"gdt-modAPI":"0.1.x"
+	}
+}
