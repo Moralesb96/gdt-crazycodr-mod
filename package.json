@@ -7,6 +7,8 @@
 	"url" : "http://www.crazycoders.net",
 	"main" : "./base.js",
 	"dependencies" : {
-		"gdt-modAPI":"0.1.x"
+		"gdt-modAPI":"0.1.x",
+		"UltimateLib":"1.0.2",
+		"jariz-update":"0.0.01"
 	}
 }

@@ -14,6 +14,9 @@ var CrazyCodr = {};
 		//Simplicity module initialization
 		CrazyCodr.Simplicity.runStartUp();
 
+		//Vacation manager module initialization
+		CrazyCodr.VacationManager.runStartUp();
+
 		//Snap grid initialization
 		$.extend($.ui.slider.prototype.options, {
 		    step: 16.67
@@ -33,10 +36,16 @@ var CrazyCodr = {};
 	GDT.loadJs([
 
 		//Load the GDT API
-		'mods/gdt-modAPI/api/events.js',
+		'mods/gdt-modAPI/modAPI.js',
+
+		//Load the UltimateLib API
+		'mods/UltimateLib/UltimateLib.js',
 
 		//Load simplicity
 		'mods/crazymod/simplicity/simplicity.js',
+
+		//Load vacationManager
+		'mods/crazymod/vacationManager/vacationManager.js',
 
 	], ready, error);
     
