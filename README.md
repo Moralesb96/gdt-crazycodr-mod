@@ -9,7 +9,7 @@ Installation
 ------------
 1. Follow the instructions on: http://forum.greenheartgames.com/t/official-modding-f-a-q/9144/19 to enable mod support in your Game Dev Tycoon installation
 2. Download the ZIP for this mod using the link on this page at the lower right side in the side menu bar
-3. Deflate the ZIP into the appropriate folder
+3. Deflate the ZIP into the appropriate folder making sure the folder is called "crazymod"
 4. Enable the mod in the mod menu of the game
 5. RESTART the game
 6. Create a new company to use the Simplicity Modification, else, the slider is automatic for all companies, even started ones!
