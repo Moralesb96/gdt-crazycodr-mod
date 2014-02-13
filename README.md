@@ -2,7 +2,7 @@ CrazyCodr GameDevTycoon Mod
 ===========================
 This is my first mod at GameDevTycoon. It is composed of two features :
 
-- Snapping for sliders
+- Snapping for sliders (Temporarily disabled)
 - Simplicity modification
 
 Installation
@@ -14,8 +14,8 @@ Installation
 5. RESTART the game
 6. Create a new company to use the Simplicity Modification, else, the slider is automatic for all companies, even started ones!
 
-Snapping for sliders
---------------------
+Snapping for sliders (Temporarily disabled)
+-------------------------------------------
 Since the introduction of game hints, we have been told to assign +++, ++, +, ~, -, --, --- values to our game development sliders. I always found it inconvenient to find the most appropriate values when we already have hints available. Thus, here are slider snaps. When moving the sliders with my mod, you will notice that it will snap to predefined increments that match the existing list of values:
 
 - +++ (Full)
