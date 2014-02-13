@@ -157,6 +157,51 @@
 
 		});
 
+		//Extend saves.loading using normal on/off handler system
+		GDT.on(GDT.eventKeys.saves.saving, function(){
+
+			//Get the data storage for this game
+			var dataStore = GDT.getDataStore(CrazyCodr.id);
+
+			//Check if simplicity is setup, if not set it up
+			if(!dataStore.data.simplicity)
+			{
+				dataStore.data.simplicity = {};
+			}
+			if(!dataStore.data.simplicity.level)
+			{
+				dataStore.data.simplicity.level = 0;
+			}
+			if(!dataStore.data.simplicity.affected)
+			{
+				dataStore.data.simplicity.affected = {};
+			}
+			if(!dataStore.data.simplicity.affected.technology)
+			{
+				dataStore.data.simplicity.affected.technology = false;
+			}
+			if(!dataStore.data.simplicity.affected.design)
+			{
+				dataStore.data.simplicity.affected.design = false;
+			}
+			if(!dataStore.data.simplicity.affected.speed)
+			{
+				dataStore.data.simplicity.affected.speed = false;
+			}
+			if(!dataStore.data.simplicity.affected.research)
+			{
+				dataStore.data.simplicity.affected.research = false;
+			}
+
+			//Load the data into the Simplicity scope
+			dataStore.data.simplicity.level = CrazyCodr.Simplicity.Level;
+			dataStore.data.simplicity.affected.design = CrazyCodr.Simplicity.Affected.Design;
+			dataStore.data.simplicity.affected.technology = CrazyCodr.Simplicity.Affected.Technology;
+			dataStore.data.simplicity.affected.speed = CrazyCodr.Simplicity.Affected.Speed;
+			dataStore.data.simplicity.affected.research = CrazyCodr.Simplicity.Affected.Research;
+
+		});
+
 	};
 
 	/**
