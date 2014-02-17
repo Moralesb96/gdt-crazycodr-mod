@@ -14,10 +14,10 @@ var CrazyCodr = {};
 		//Simplicity module initialization
 		CrazyCodr.Simplicity.runStartUp();
 
-		//Snap grid initialization
-		$.extend($.ui.slider.prototype.options, {
-		    step: 16.67
-		});
+		////Snap grid initialization
+		//$.extend($.ui.slider.prototype.options, {
+		//    step: 16.67
+		//});
 	
 	};
 
