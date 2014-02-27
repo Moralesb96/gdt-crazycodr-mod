@@ -68,9 +68,6 @@
 		var previousCloseNewGameViewEventHandler = UI.closeNewGameView;
 		UI.closeNewGameView = function(){
 
-			//Call the previous ui method
-			previousCloseNewGameViewEventHandler();
-
 			//Process our ui enhancements
 			switch(parseInt(document.getElementById('crazycodr_simplicity_level').value))
 			{
@@ -101,6 +98,9 @@
 					break;
 
 			}
+
+			//Call the previous ui method
+			previousCloseNewGameViewEventHandler();
 
 		};
 
