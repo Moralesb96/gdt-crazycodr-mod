@@ -69,7 +69,7 @@
 		UI.closeNewGameView = function(){
 
 			//Process our ui enhancements
-			switch(parseInt(document.getElementById('crazycodr_simplicity_level').value))
+			switch(parseInt($('#crazycodr_simplicity_level').val()))
 			{
 				case 0:
 					//Nothing to change, user doesn't want to use simplicity
@@ -81,12 +81,12 @@
 					//Set the value in the settings
 					var dataStore = GDT.getDataStore(CrazyCodr.id);
 					dataStore.data.simplicity = {};
-					dataStore.data.simplicity.level = parseInt(document.getElementById('crazycodr_simplicity_level').value);
+					dataStore.data.simplicity.level = parseInt($('#crazycodr_simplicity_level').val());
 					dataStore.data.simplicity.affected = {};
-					dataStore.data.simplicity.affected.technology = document.getElementById('crazycodr_simplicity_affected_technology').checked;
-					dataStore.data.simplicity.affected.design = document.getElementById('crazycodr_simplicity_affected_design').checked;
-					dataStore.data.simplicity.affected.speed = document.getElementById('crazycodr_simplicity_affected_speed').checked;
-					dataStore.data.simplicity.affected.research = document.getElementById('crazycodr_simplicity_affected_research').checked;
+					dataStore.data.simplicity.affected.technology = $('#crazycodr_simplicity_affected_technology').is(':checked');
+					dataStore.data.simplicity.affected.design = $('#crazycodr_simplicity_affected_design').is(':checked');
+					dataStore.data.simplicity.affected.speed = $('#crazycodr_simplicity_affected_speed').is(':checked');
+					dataStore.data.simplicity.affected.research = $('#crazycodr_simplicity_affected_research').is(':checked');
 
 					//Load the data into the Simplicity scope
 					CrazyCodr.Simplicity.Level = dataStore.data.simplicity.level;
